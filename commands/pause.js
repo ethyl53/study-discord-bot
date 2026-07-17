@@ -1,6 +1,6 @@
 const { SlashCommandBuilder, EmbedBuilder } = require('discord.js');
 const db = require('../database/db');
-const { resolveSubjectColor } = require('../utils/timeHelper');
+const { resolveSubjectColor } = require('../utils/timelineHelper');
 
 module.exports = {
     data: new SlashCommandBuilder()
